@@ -9,7 +9,11 @@ def ver_tarefas(tarefas):
     for indice, tarefa in enumerate(tarefas):
         status = "✓" if tarefa["completada"] else ""
         nome_tarefa = tarefa["nome"]
-        print(f"{indice}. [{status}] {nome_tarefa}")
+        print(f"{indice}. atualizada para {nome_tarefa}")
+
+def atualizar_tarefa(tarefas,indice_tarefa,novo_nome_tarefa):
+     print(f"{indice}. [{status}] {nome_tarefa}")
+
 
 tarefas = []
 
