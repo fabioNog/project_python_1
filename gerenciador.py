@@ -13,6 +13,8 @@ def ver_tarefas(tarefas):
 
 tarefas = []
 
+#apenas um comentario
+
 while True:
 
     print("\n Menu do Gerenciador")
