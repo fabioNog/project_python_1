@@ -37,6 +37,10 @@ while True:
 
     elif escolha == "2":
         ver_tarefas(tarefas)
+    
+    elif escolha == "3":
+            atualizar_tarefa(tarefas,indice,novo_nome_tarefa)
+    
 
     elif escolha == "6":        
         break
